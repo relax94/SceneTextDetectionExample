@@ -1,0 +1,6 @@
+framework module Pods_SceneTextDetectionUITests {
+  umbrella header "Pods-SceneTextDetectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
