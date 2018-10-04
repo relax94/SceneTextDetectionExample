@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FA2165E6A20070096F /* AppDelegate.swift */; };
+		FB8842FD2165E6A20070096F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FC2165E6A20070096F /* ViewController.swift */; };
+		FB8843002165E6A20070096F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8842FE2165E6A20070096F /* Main.storyboard */; };
+		FB8843022165E6A30070096F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8843012165E6A30070096F /* Assets.xcassets */; };
+		FB8843052165E6A30070096F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8843032165E6A30070096F /* LaunchScreen.storyboard */; };
+		FB8843102165E6A30070096F /* SceneTextDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88430F2165E6A30070096F /* SceneTextDetectionTests.swift */; };
+		FB88431B2165E6A30070096F /* SceneTextDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88431A2165E6A30070096F /* SceneTextDetectionUITests.swift */; };
+		FB8843292165E6E20070096F /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8843282165E6E20070096F /* CameraPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB88430C2165E6A30070096F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8842EF2165E6A20070096F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8842F62165E6A20070096F;
+			remoteInfo = SceneTextDetection;
+		};
+		FB8843172165E6A30070096F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8842EF2165E6A20070096F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8842F62165E6A20070096F;
+			remoteInfo = SceneTextDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8842F72165E6A20070096F /* SceneTextDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneTextDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8842FA2165E6A20070096F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB8842FC2165E6A20070096F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB8842FF2165E6A20070096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8843012165E6A30070096F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8843042165E6A30070096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8843062165E6A30070096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB88430B2165E6A30070096F /* SceneTextDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneTextDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB88430F2165E6A30070096F /* SceneTextDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTextDetectionTests.swift; sourceTree = "<group>"; };
+		FB8843112165E6A30070096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8843162165E6A30070096F /* SceneTextDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneTextDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB88431A2165E6A30070096F /* SceneTextDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTextDetectionUITests.swift; sourceTree = "<group>"; };
+		FB88431C2165E6A30070096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8843282165E6E20070096F /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8842F42165E6A20070096F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843082165E6A30070096F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843132165E6A30070096F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8842EE2165E6A20070096F = {
+			isa = PBXGroup;
+			children = (
+				FB8842F92165E6A20070096F /* SceneTextDetection */,
+				FB88430E2165E6A30070096F /* SceneTextDetectionTests */,
+				FB8843192165E6A30070096F /* SceneTextDetectionUITests */,
+				FB8842F82165E6A20070096F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8842F82165E6A20070096F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8842F72165E6A20070096F /* SceneTextDetection.app */,
+				FB88430B2165E6A30070096F /* SceneTextDetectionTests.xctest */,
+				FB8843162165E6A30070096F /* SceneTextDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8842F92165E6A20070096F /* SceneTextDetection */ = {
+			isa = PBXGroup;
+			children = (
+				FB8842FA2165E6A20070096F /* AppDelegate.swift */,
+				FB8842FC2165E6A20070096F /* ViewController.swift */,
+				FB8842FE2165E6A20070096F /* Main.storyboard */,
+				FB8843012165E6A30070096F /* Assets.xcassets */,
+				FB8843032165E6A30070096F /* LaunchScreen.storyboard */,
+				FB8843062165E6A30070096F /* Info.plist */,
+				FB8843282165E6E20070096F /* CameraPreviewView.swift */,
+			);
+			path = SceneTextDetection;
+			sourceTree = "<group>";
+		};
+		FB88430E2165E6A30070096F /* SceneTextDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB88430F2165E6A30070096F /* SceneTextDetectionTests.swift */,
+				FB8843112165E6A30070096F /* Info.plist */,
+			);
+			path = SceneTextDetectionTests;
+			sourceTree = "<group>";
+		};
+		FB8843192165E6A30070096F /* SceneTextDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB88431A2165E6A30070096F /* SceneTextDetectionUITests.swift */,
+				FB88431C2165E6A30070096F /* Info.plist */,
+			);
+			path = SceneTextDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8842F62165E6A20070096F /* SceneTextDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB88431F2165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetection" */;
+			buildPhases = (
+				FB8842F32165E6A20070096F /* Sources */,
+				FB8842F42165E6A20070096F /* Frameworks */,
+				FB8842F52165E6A20070096F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SceneTextDetection;
+			productName = SceneTextDetection;
+			productReference = FB8842F72165E6A20070096F /* SceneTextDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB88430A2165E6A30070096F /* SceneTextDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8843222165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionTests" */;
+			buildPhases = (
+				FB8843072165E6A30070096F /* Sources */,
+				FB8843082165E6A30070096F /* Frameworks */,
+				FB8843092165E6A30070096F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB88430D2165E6A30070096F /* PBXTargetDependency */,
+			);
+			name = SceneTextDetectionTests;
+			productName = SceneTextDetectionTests;
+			productReference = FB88430B2165E6A30070096F /* SceneTextDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8843152165E6A30070096F /* SceneTextDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8843252165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionUITests" */;
+			buildPhases = (
+				FB8843122165E6A30070096F /* Sources */,
+				FB8843132165E6A30070096F /* Frameworks */,
+				FB8843142165E6A30070096F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8843182165E6A30070096F /* PBXTargetDependency */,
+			);
+			name = SceneTextDetectionUITests;
+			productName = SceneTextDetectionUITests;
+			productReference = FB8843162165E6A30070096F /* SceneTextDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8842EF2165E6A20070096F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dmytro Pavlenko";
+				TargetAttributes = {
+					FB8842F62165E6A20070096F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FB88430A2165E6A30070096F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FB8842F62165E6A20070096F;
+					};
+					FB8843152165E6A30070096F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FB8842F62165E6A20070096F;
+					};
+				};
+			};
+			buildConfigurationList = FB8842F22165E6A20070096F /* Build configuration list for PBXProject "SceneTextDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8842EE2165E6A20070096F;
+			productRefGroup = FB8842F82165E6A20070096F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8842F62165E6A20070096F /* SceneTextDetection */,
+				FB88430A2165E6A30070096F /* SceneTextDetectionTests */,
+				FB8843152165E6A30070096F /* SceneTextDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8842F52165E6A20070096F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8843052165E6A30070096F /* LaunchScreen.storyboard in Resources */,
+				FB8843022165E6A30070096F /* Assets.xcassets in Resources */,
+				FB8843002165E6A20070096F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843092165E6A30070096F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843142165E6A30070096F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8842F32165E6A20070096F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8842FD2165E6A20070096F /* ViewController.swift in Sources */,
+				FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */,
+				FB8843292165E6E20070096F /* CameraPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843072165E6A30070096F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8843102165E6A30070096F /* SceneTextDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8843122165E6A30070096F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB88431B2165E6A30070096F /* SceneTextDetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB88430D2165E6A30070096F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8842F62165E6A20070096F /* SceneTextDetection */;
+			targetProxy = FB88430C2165E6A30070096F /* PBXContainerItemProxy */;
+		};
+		FB8843182165E6A30070096F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8842F62165E6A20070096F /* SceneTextDetection */;
+			targetProxy = FB8843172165E6A30070096F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8842FE2165E6A20070096F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8842FF2165E6A20070096F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8843032165E6A30070096F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8843042165E6A30070096F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB88431D2165E6A30070096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB88431E2165E6A30070096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8843202165E6A30070096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8843212165E6A30070096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB8843232165E6A30070096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneTextDetection.app/SceneTextDetection";
+			};
+			name = Debug;
+		};
+		FB8843242165E6A30070096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneTextDetection.app/SceneTextDetection";
+			};
+			name = Release;
+		};
+		FB8843262165E6A30070096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SceneTextDetection;
+			};
+			name = Debug;
+		};
+		FB8843272165E6A30070096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				INFOPLIST_FILE = SceneTextDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SceneTextDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8842F22165E6A20070096F /* Build configuration list for PBXProject "SceneTextDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB88431D2165E6A30070096F /* Debug */,
+				FB88431E2165E6A30070096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB88431F2165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8843202165E6A30070096F /* Debug */,
+				FB8843212165E6A30070096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8843222165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8843232165E6A30070096F /* Debug */,
+				FB8843242165E6A30070096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8843252165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8843262165E6A30070096F /* Debug */,
+				FB8843272165E6A30070096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8842EF2165E6A20070096F /* Project object */;
+}
