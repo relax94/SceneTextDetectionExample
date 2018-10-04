@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D96A656CCE3B27B4A9296F6 /* Pods_SceneTextDetectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF15FB633EE73EAC1D09FF6F /* Pods_SceneTextDetectionTests.framework */; };
+		64E9ADE81F2A2436007BAC6F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 64E9ADE71F2A2436007BAC6F /* tessdata */; };
+		705326EB70EB46C0FFCFB435 /* Pods_SceneTextDetectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89A5925D4E0FB3419ED5C4 /* Pods_SceneTextDetectionUITests.framework */; };
+		975066FF73E4D0C6874686F8 /* Pods_SceneTextDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A956FC341C26F501907D5C9 /* Pods_SceneTextDetection.framework */; };
 		FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FA2165E6A20070096F /* AppDelegate.swift */; };
 		FB8842FD2165E6A20070096F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FC2165E6A20070096F /* ViewController.swift */; };
 		FB8843002165E6A20070096F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8842FE2165E6A20070096F /* Main.storyboard */; };
@@ -15,6 +19,9 @@
 		FB8843102165E6A30070096F /* SceneTextDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88430F2165E6A30070096F /* SceneTextDetectionTests.swift */; };
 		FB88431B2165E6A30070096F /* SceneTextDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88431A2165E6A30070096F /* SceneTextDetectionUITests.swift */; };
 		FB8843292165E6E20070096F /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8843282165E6E20070096F /* CameraPreviewView.swift */; };
+		FB8843312165F67F0070096F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB88432B2165ED5A0070096F /* CoreImage.framework */; };
+		FBC4DADC2165FEC4008234D4 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4DADB2165FEC4008234D4 /* Dummy.m */; };
+		FBC4DADD2165FF97008234D4 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB88432F2165F65B0070096F /* TesseractOCR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A956FC341C26F501907D5C9 /* Pods_SceneTextDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneTextDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A663ADD8EEA49D61884DE3 /* Pods-SceneTextDetectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetectionUITests/Pods-SceneTextDetectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		291262A70FF181CF59CC7DDF /* Pods-SceneTextDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetection/Pods-SceneTextDetection.release.xcconfig"; sourceTree = "<group>"; };
+		3AB135D7D75E7C6EEE4CD6A7 /* Pods-SceneTextDetectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetectionTests/Pods-SceneTextDetectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC85B2D9A5714311DA9B990 /* Pods-SceneTextDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetection/Pods-SceneTextDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		64E9ADE71F2A2436007BAC6F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		6A341F6BCEF10A899B4A53DF /* Pods-SceneTextDetectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetectionUITests/Pods-SceneTextDetectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		841D135D01B7CB9FB9C6462B /* Pods-SceneTextDetectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetectionTests/Pods-SceneTextDetectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC89A5925D4E0FB3419ED5C4 /* Pods_SceneTextDetectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneTextDetectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF15FB633EE73EAC1D09FF6F /* Pods_SceneTextDetectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneTextDetectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8842F72165E6A20070096F /* SceneTextDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneTextDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8842FA2165E6A20070096F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8842FC2165E6A20070096F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		FB88431A2165E6A30070096F /* SceneTextDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTextDetectionUITests.swift; sourceTree = "<group>"; };
 		FB88431C2165E6A30070096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB8843282165E6E20070096F /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		FB88432B2165ED5A0070096F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FB88432F2165F65B0070096F /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		FBC4DAD92165FEC4008234D4 /* SceneTextDetection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SceneTextDetection-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBC4DADA2165FEC4008234D4 /* Dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		FBC4DADB2165FEC4008234D4 /* Dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC4DADD2165FF97008234D4 /* TesseractOCR.framework in Frameworks */,
+				FB8843312165F67F0070096F /* CoreImage.framework in Frameworks */,
+				975066FF73E4D0C6874686F8 /* Pods_SceneTextDetection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D96A656CCE3B27B4A9296F6 /* Pods_SceneTextDetectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705326EB70EB46C0FFCFB435 /* Pods_SceneTextDetectionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9263AFB9B5D1F5134E1DFD66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC85B2D9A5714311DA9B990 /* Pods-SceneTextDetection.debug.xcconfig */,
+				291262A70FF181CF59CC7DDF /* Pods-SceneTextDetection.release.xcconfig */,
+				841D135D01B7CB9FB9C6462B /* Pods-SceneTextDetectionTests.debug.xcconfig */,
+				3AB135D7D75E7C6EEE4CD6A7 /* Pods-SceneTextDetectionTests.release.xcconfig */,
+				21A663ADD8EEA49D61884DE3 /* Pods-SceneTextDetectionUITests.debug.xcconfig */,
+				6A341F6BCEF10A899B4A53DF /* Pods-SceneTextDetectionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB8842EE2165E6A20070096F = {
 			isa = PBXGroup;
 			children = (
+				FB88432F2165F65B0070096F /* TesseractOCR.framework */,
 				FB8842F92165E6A20070096F /* SceneTextDetection */,
 				FB88430E2165E6A30070096F /* SceneTextDetectionTests */,
 				FB8843192165E6A30070096F /* SceneTextDetectionUITests */,
 				FB8842F82165E6A20070096F /* Products */,
+				FB88432A2165ED5A0070096F /* Frameworks */,
+				9263AFB9B5D1F5134E1DFD66 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 		FB8842F92165E6A20070096F /* SceneTextDetection */ = {
 			isa = PBXGroup;
 			children = (
+				64E9ADE71F2A2436007BAC6F /* tessdata */,
 				FB8842FA2165E6A20070096F /* AppDelegate.swift */,
 				FB8842FC2165E6A20070096F /* ViewController.swift */,
 				FB8842FE2165E6A20070096F /* Main.storyboard */,
@@ -106,6 +150,9 @@
 				FB8843032165E6A30070096F /* LaunchScreen.storyboard */,
 				FB8843062165E6A30070096F /* Info.plist */,
 				FB8843282165E6E20070096F /* CameraPreviewView.swift */,
+				FBC4DADA2165FEC4008234D4 /* Dummy.h */,
+				FBC4DADB2165FEC4008234D4 /* Dummy.m */,
+				FBC4DAD92165FEC4008234D4 /* SceneTextDetection-Bridging-Header.h */,
 			);
 			path = SceneTextDetection;
 			sourceTree = "<group>";
@@ -128,6 +175,17 @@
 			path = SceneTextDetectionUITests;
 			sourceTree = "<group>";
 		};
+		FB88432A2165ED5A0070096F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB88432B2165ED5A0070096F /* CoreImage.framework */,
+				1A956FC341C26F501907D5C9 /* Pods_SceneTextDetection.framework */,
+				BF15FB633EE73EAC1D09FF6F /* Pods_SceneTextDetectionTests.framework */,
+				BC89A5925D4E0FB3419ED5C4 /* Pods_SceneTextDetectionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB88431F2165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetection" */;
 			buildPhases = (
+				21B04A8277C757C135998CD6 /* [CP] Check Pods Manifest.lock */,
 				FB8842F32165E6A20070096F /* Sources */,
 				FB8842F42165E6A20070096F /* Frameworks */,
 				FB8842F52165E6A20070096F /* Resources */,
+				3CC84CAE79A9D97CC9359171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8843222165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionTests" */;
 			buildPhases = (
+				E886B203180DA52021141861 /* [CP] Check Pods Manifest.lock */,
 				FB8843072165E6A30070096F /* Sources */,
 				FB8843082165E6A30070096F /* Frameworks */,
 				FB8843092165E6A30070096F /* Resources */,
@@ -170,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8843252165E6A30070096F /* Build configuration list for PBXNativeTarget "SceneTextDetectionUITests" */;
 			buildPhases = (
+				32C7BC086B9923D760C843F2 /* [CP] Check Pods Manifest.lock */,
 				FB8843122165E6A30070096F /* Sources */,
 				FB8843132165E6A30070096F /* Frameworks */,
 				FB8843142165E6A30070096F /* Resources */,
@@ -196,6 +258,7 @@
 				TargetAttributes = {
 					FB8842F62165E6A20070096F = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					FB88430A2165E6A30070096F = {
 						CreatedOnToolsVersion = 10.0;
@@ -235,6 +298,7 @@
 				FB8843052165E6A30070096F /* LaunchScreen.storyboard in Resources */,
 				FB8843022165E6A30070096F /* Assets.xcassets in Resources */,
 				FB8843002165E6A20070096F /* Main.storyboard in Resources */,
+				64E9ADE81F2A2436007BAC6F /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +318,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21B04A8277C757C135998CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SceneTextDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C7BC086B9923D760C843F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SceneTextDetectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC84CAE79A9D97CC9359171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SceneTextDetection/Pods-SceneTextDetection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOCR/SwiftOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SceneTextDetection/Pods-SceneTextDetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E886B203180DA52021141861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SceneTextDetectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB8842F32165E6A20070096F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +402,7 @@
 			files = (
 				FB8842FD2165E6A20070096F /* ViewController.swift in Sources */,
 				FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */,
+				FBC4DADC2165FEC4008234D4 /* Dummy.m in Sources */,
 				FB8843292165E6E20070096F /* CameraPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,17 +576,28 @@
 		};
 		FB8843202165E6A30070096F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC85B2D9A5714311DA9B990 /* Pods-SceneTextDetection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SceneTextDetection",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SceneTextDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SceneTextDetection/SceneTextDetection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,17 +605,27 @@
 		};
 		FB8843212165E6A30070096F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291262A70FF181CF59CC7DDF /* Pods-SceneTextDetection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NE5UTCPDZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SceneTextDetection",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SceneTextDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smapme.SceneTextDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SceneTextDetection/SceneTextDetection-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +633,7 @@
 		};
 		FB8843232165E6A30070096F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841D135D01B7CB9FB9C6462B /* Pods-SceneTextDetectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +655,7 @@
 		};
 		FB8843242165E6A30070096F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB135D7D75E7C6EEE4CD6A7 /* Pods-SceneTextDetectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +677,7 @@
 		};
 		FB8843262165E6A30070096F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A663ADD8EEA49D61884DE3 /* Pods-SceneTextDetectionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +698,7 @@
 		};
 		FB8843272165E6A30070096F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A341F6BCEF10A899B4A53DF /* Pods-SceneTextDetectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
