@@ -11,6 +11,7 @@
 		64E9ADE81F2A2436007BAC6F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 64E9ADE71F2A2436007BAC6F /* tessdata */; };
 		705326EB70EB46C0FFCFB435 /* Pods_SceneTextDetectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89A5925D4E0FB3419ED5C4 /* Pods_SceneTextDetectionUITests.framework */; };
 		975066FF73E4D0C6874686F8 /* Pods_SceneTextDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A956FC341C26F501907D5C9 /* Pods_SceneTextDetection.framework */; };
+		FB2D3890216654B00087EAD9 /* ViewController+AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D388F216654B00087EAD9 /* ViewController+AVFoundation.swift */; };
 		FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FA2165E6A20070096F /* AppDelegate.swift */; };
 		FB8842FD2165E6A20070096F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8842FC2165E6A20070096F /* ViewController.swift */; };
 		FB8843002165E6A20070096F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8842FE2165E6A20070096F /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		841D135D01B7CB9FB9C6462B /* Pods-SceneTextDetectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneTextDetectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SceneTextDetectionTests/Pods-SceneTextDetectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC89A5925D4E0FB3419ED5C4 /* Pods_SceneTextDetectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneTextDetectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF15FB633EE73EAC1D09FF6F /* Pods_SceneTextDetectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneTextDetectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2D388F216654B00087EAD9 /* ViewController+AVFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+AVFoundation.swift"; sourceTree = "<group>"; };
 		FB8842F72165E6A20070096F /* SceneTextDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneTextDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8842FA2165E6A20070096F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8842FC2165E6A20070096F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				64E9ADE71F2A2436007BAC6F /* tessdata */,
 				FB8842FA2165E6A20070096F /* AppDelegate.swift */,
 				FB8842FC2165E6A20070096F /* ViewController.swift */,
+				FB2D388F216654B00087EAD9 /* ViewController+AVFoundation.swift */,
 				FB8842FE2165E6A20070096F /* Main.storyboard */,
 				FB8843012165E6A30070096F /* Assets.xcassets */,
 				FB8843032165E6A30070096F /* LaunchScreen.storyboard */,
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8842FD2165E6A20070096F /* ViewController.swift in Sources */,
+				FB2D3890216654B00087EAD9 /* ViewController+AVFoundation.swift in Sources */,
 				FB8842FB2165E6A20070096F /* AppDelegate.swift in Sources */,
 				FBC4DADC2165FEC4008234D4 /* Dummy.m in Sources */,
 				FB8843292165E6E20070096F /* CameraPreviewView.swift in Sources */,
